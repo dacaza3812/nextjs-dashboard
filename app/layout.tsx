@@ -2,6 +2,7 @@ import { montserrat } from './ui/fonts';
 import './ui/global.css'
 import { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: {
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
           {children}
           <Analytics />
+          <SpeedInsights />
           <footer className='py-10 flex justify-center items-center'>
             Trabajo de Suficiencia para Framekork Web
           </footer>
