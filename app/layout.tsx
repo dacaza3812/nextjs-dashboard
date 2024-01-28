@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: '%s | Acme Dashboard',
     default: 'Acme Dashboard',
   },
-  description: 'The official Next.js Learn Dashboard built with App Router.',
+  description: 'Dashbpard para prueba de suficiencia',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
           {children}
           <footer className='py-10 flex justify-center items-center'>
-            Hecho con ❤ por la gente de Vercel
+            Trabajo de Suficiencia para Framekork Web
           </footer>
       </body>
     </html>
